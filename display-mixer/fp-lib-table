@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "kirdos") (type "KiCad") (uri "/home/liam/github_projects/kirdos/kirdos.pretty") (options "") (descr ""))
+)

@@ -526,7 +526,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "keyboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -649,6 +649,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -661,7 +669,7 @@
         "uuid": "a799be60-b82b-4047-8bd5-a0d140128afd"
       }
     ],
-    "used_designators": "H1-4,#PWR1-2,J1,D1-76,SW1-78",
+    "used_designators": "H1-4,#PWR1-5,J1-2,D1-76,SW1-78",
     "variants": []
   },
   "sheets": [
@@ -672,10 +680,6 @@
     [
       "950224bf-7b2f-4882-9c6a-5b1143aadfe3",
       "Keys"
-    ],
-    [
-      "1dae1b2e-3c36-4479-bb0b-ed08eba15cf7",
-      "Connector"
     ]
   ],
   "text_variables": {},
