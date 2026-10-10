@@ -469,6 +469,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -516,8 +517,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -526,7 +527,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "keyboard.step",
+      "step": "keyboard.stl",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -669,17 +670,13 @@
         "uuid": "a799be60-b82b-4047-8bd5-a0d140128afd"
       }
     ],
-    "used_designators": "H1-4,#PWR1-5,J1-2,D1-76,SW1-78",
+    "used_designators": "#PWR1-5,D1-76,H1-4,J1-2,SW1-78",
     "variants": []
   },
   "sheets": [
     [
       "a799be60-b82b-4047-8bd5-a0d140128afd",
       "keyboard"
-    ],
-    [
-      "950224bf-7b2f-4882-9c6a-5b1143aadfe3",
-      "Keys"
     ]
   ],
   "text_variables": {},

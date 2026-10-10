@@ -526,7 +526,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "display-mixer.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
